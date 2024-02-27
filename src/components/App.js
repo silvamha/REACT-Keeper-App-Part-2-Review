@@ -17,8 +17,7 @@ function App() {
   return (
     <div>
       <Header />
-      {notes.map(loadNotes)}  
-
+      {notes.map(loadNotes)} 
       <Footer />
     </div>
   );
